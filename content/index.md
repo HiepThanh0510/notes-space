@@ -63,5 +63,3 @@ You'll also find my [[notes/Index|notes]] here, which are continuously evolving 
 ## 📧 Contact
 
 📧  [LinkedIn](https://www.linkedin.com/in/vohiepthanh/) | [GitHub](https://github.com/HiepThanh0510)
-
----
