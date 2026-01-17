@@ -1,3 +1,524 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Custom styles for a more beautiful and professional look
+
+// ========================================
+// Homepage Hero Section
+// ========================================
+
+.page[data-slug="index"] {
+  article h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--secondary), var(--tertiary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  article > p:first-of-type {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--darkgray);
+    margin-bottom: 2rem;
+  }
+}
+
+// ========================================
+// Enhanced Cards and Sections
+// ========================================
+
+// Card-like sections with subtle shadows
+article h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--lightgray);
+  color: var(--dark);
+}
+
+article h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--darkgray);
+}
+
+// ========================================
+// Blog Post Styling
+// ========================================
+
+// Blog post metadata
+.content-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--lightgray);
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+
+// Blog post excerpts
+.page-listing {
+  .section-li {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: var(--light);
+    border: 1px solid var(--lightgray);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-color: var(--secondary);
+    }
+
+    h3 {
+      margin-top: 0;
+      
+      a {
+        color: var(--secondary);
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: var(--tertiary);
+        }
+      }
+    }
+
+    p {
+      color: var(--darkgray);
+      line-height: 1.6;
+    }
+  }
+}
+
+// ========================================
+// Enhanced Links
+// ========================================
+
+article a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-bottom-color: var(--secondary);
+  }
+
+  &[href^="http"]::after {
+    content: " ↗";
+    font-size: 0.8em;
+    opacity: 0.7;
+  }
+}
+
+// ========================================
+// Code Blocks Enhancement
+// ========================================
+
+pre {
+  border-radius: 8px;
+  padding: 1.25rem;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+code {
+  font-family: var(--codeFont);
+  font-size: 0.9em;
+  background: var(--lightgray);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+// ========================================
+// Tags Styling
+// ========================================
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+
+  a {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: var(--lightgray);
+    color: var(--darkgray);
+    border-radius: 16px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--light);
+      border-color: var(--secondary);
+      transform: translateY(-1px);
+    }
+
+    &::after {
+      content: none !important; // Remove external link icon for tags
+    }
+  }
+}
+
+// ========================================
+// Emoji and Icon Enhancements
+// ========================================
+
+// Make emojis more visible and consistent
+article {
+  h2, h3, h4 {
+    img.emoji {
+      height: 1.2em;
+      width: 1.2em;
+      margin: 0 0.2em;
+      vertical-align: -0.1em;
+    }
+  }
+}
+
+// ========================================
+// Quick Links Grid (Homepage)
+// ========================================
+
+.page[data-slug="index"] {
+  article > div[style*="grid"] {
+    a {
+      display: block;
+      padding: 1.5rem;
+      background: var(--light);
+      border: 2px solid var(--lightgray);
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      color: var(--dark);
+
+      &:hover {
+        border-color: var(--secondary);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        transform: translateY(-4px);
+      }
+
+      strong {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: var(--secondary);
+      }
+
+      &::after {
+        content: none !important;
+      }
+    }
+  }
+}
+
+// ========================================
+// Table Styling
+// ========================================
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+
+  thead {
+    background: var(--secondary);
+    color: var(--light);
+
+    th {
+      padding: 1rem;
+      text-align: left;
+      font-weight: 600;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid var(--lightgray);
+      transition: background 0.2s ease;
+
+      &:hover {
+        background: var(--highlight);
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      td {
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+// ========================================
+// Blockquote Styling
+// ========================================
+
+blockquote {
+  border-left: 4px solid var(--secondary);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--darkgray);
+  font-style: italic;
+  background: var(--highlight);
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+// ========================================
+// Lists Enhancement
+// ========================================
+
+article {
+  ul, ol {
+    line-height: 1.8;
+    margin: 1rem 0;
+
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+
+    li::before {
+      content: "→";
+      color: var(--secondary);
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1.5em;
+      margin-right: 0.5em;
+    }
+  }
+}
+
+// ========================================
+// Horizontal Rules
+// ========================================
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--lightgray),
+    transparent
+  );
+  margin: 3rem 0;
+}
+
+// ========================================
+// Graph Styling
+// ========================================
+
+.graph {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+// ========================================
+// Table of Contents
+// ========================================
+
+.toc {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1rem;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li::before {
+      content: none;
+    }
+
+    a {
+      color: var(--darkgray);
+      text-decoration: none;
+      display: block;
+      padding: 0.3rem 0;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--secondary);
+        padding-left: 0.5rem;
+      }
+    }
+  }
+}
+
+// ========================================
+// Backlinks
+// ========================================
+
+.backlinks {
+  background: var(--light);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 2rem;
+
+  h3 {
+    margin-top: 0;
+    color: var(--secondary);
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li::before {
+      content: "←";
+      color: var(--tertiary);
+    }
+  }
+}
+
+// ========================================
+// Explorer (File Tree)
+// ========================================
+
+.explorer {
+  .folder-outer {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .folder-button {
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: var(--highlight);
+    }
+  }
+}
+
+// ========================================
+// Search
+// ========================================
+
+#search-container {
+  input {
+    border-radius: 8px;
+    border: 2px solid var(--lightgray);
+    transition: all 0.2s ease;
+
+    &:focus {
+      border-color: var(--secondary);
+      box-shadow: 0 0 0 3px rgba(40, 75, 99, 0.1);
+    }
+  }
+
+  .results-container {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// ========================================
+// Responsive Adjustments
+// ========================================
+
+@media (max-width: 768px) {
+  .page[data-slug="index"] {
+    article h1 {
+      font-size: 2rem;
+    }
+
+    article > p:first-of-type {
+      font-size: 1.1rem;
+    }
+  }
+
+  article h2 {
+    font-size: 1.5rem;
+  }
+
+  article h3 {
+    font-size: 1.2rem;
+  }
+}
+
+// ========================================
+// Print Styles
+// ========================================
+
+@media print {
+  .left-sidebar,
+  .right-sidebar,
+  .darkmode-toggle,
+  .search,
+  .graph {
+    display: none;
+  }
+
+  article {
+    max-width: 100%;
+  }
+}
+
+// ========================================
+// Smooth Animations
+// ========================================
+
+* {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+// ========================================
+// Footer Enhancement
+// ========================================
+
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--lightgray);
+
+  a {
+    font-weight: 500;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+}
