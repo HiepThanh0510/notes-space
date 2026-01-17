@@ -15,6 +15,12 @@ content/notes/private/
 content/notes/work/
 content/blog/drafts/
 
+# Documentation and templates (for your reference only, not published)
+BLOGGING-GUIDE.md
+content/blog/README.md
+content/blog/_template.md
+content/notes/README.md
+
 # Obsidian workspace files (personal settings)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json

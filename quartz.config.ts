@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "HiepThanh0510.github.io/notes-space",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "work", "templates", ".obsidian", "drafts", "**/README.md", "**/_template.md", "**/BLOGGING-GUIDE.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
