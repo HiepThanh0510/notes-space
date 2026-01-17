@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Hiep-Thanh Vo",
+    pageTitle: "Vibe Yapping Zone",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
