@@ -9,3 +9,17 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Private and work notes - won't be published
+content/notes/private/
+content/notes/work/
+content/blog/drafts/
+
+# Obsidian workspace files (personal settings)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Temporary files
+*.tmp
+.trash/
+
