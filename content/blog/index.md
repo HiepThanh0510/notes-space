@@ -21,4 +21,3 @@ Browse through my articles below or use the explorer on the left to navigate by 
 
 ---
 
-*Subscribe via RSS to stay updated with new posts!*

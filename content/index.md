@@ -16,40 +16,36 @@ From physics to machine learning, my path has been driven by **curiosity** about
 
 ## Experience
 
-#### Machine Learning Engineer @ Trusting Social
+#### Machine Learning Engineer @ [Trusting Social](https://trustingsocial.com/)
 *Feb 2025 - Present*
 
 #### Machine Learning Engineer @ Delta Cognition
 *Dec 2023 - Jan 2025 • 1 yr 2 mos*
 
-#### AI Researcher @ VietAI
+#### AI Researcher @ [VietAI](https://vietai.org/)
 *Dec 2023 - Jan 2025 • 1 yr 2 mos*
 
-#### AI Researcher @ AI VIET NAM
+#### AI Researcher @ [AI VIET NAM](https://aivietnam.edu.vn/)
 *Jun 2022 - May 2023 • 1 yr*
 
-#### Embedded Software Engineer @ Viettel High Tech
+#### Embedded Software Engineer @ [Viettel High Tech](https://viettelhightech.vn/en)
 *Jun 2022 - Aug 2022 • 3 mos*
 
 ---
 
-## 🎓 Education
+## Education
 
-<div style="margin-left: 1rem;">
-
-### Ho Chi Minh City University of Technology (HCMUT)
+#### Ho Chi Minh City University of Technology (HCMUT)
 **Bachelor's degree, Control Engineering and Automation**  
 *Aug 2019 - Jul 2023*
 
-### Luong Van Chanh High School for The Gifted
+#### Luong Van Chanh High School for The Gifted
 **Physics Specialization**  
 *Sep 2016 - May 2019*
 
-</div>
-
 ---
 
-## 🏆 Notable Achievements
+## Notable Achievements
 
 <div style="margin-left: 1rem;">
 
@@ -65,28 +61,6 @@ From physics to machine learning, my path has been driven by **curiosity** about
 
 ---
 
-## 📫 Let's Connect
-
-<div style="display: flex; gap: 2rem; justify-content: center; margin: 2rem 0; flex-wrap: wrap;">
-
-<a href="https://www.linkedin.com/in/vohiepthanh/" style="text-decoration: none;">
-  <div style="padding: 1rem 2rem; background: var(--highlight); border-radius: 8px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 2rem;">💼</div>
-    <div style="font-weight: 600;">LinkedIn</div>
-  </div>
-</a>
-
-<a href="https://github.com/HiepThanh0510" style="text-decoration: none;">
-  <div style="padding: 1rem 2rem; background: var(--highlight); border-radius: 8px; text-align: center; transition: transform 0.2s;">
-    <div style="font-size: 2rem;">💻</div>
-    <div style="font-weight: 600;">GitHub</div>
-  </div>
-</a>
-
-</div>
-
----
-
 <div style="text-align: center; color: var(--gray); font-style: italic; margin-top: 3rem;">
-This is my digital space where I'll share my journey in machine learning and AI.
+This is my digital space where I'll share my journey in machine learning/AI, and interesting stories (maybe).
 </div>
