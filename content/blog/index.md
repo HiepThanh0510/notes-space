@@ -1,10 +1,8 @@
 ---
-title: Blog
+title: Yapping
 ---
 
-# 📝 Blog
-
-Welcome to my blog! Here I share my thoughts, learnings, and experiences in machine learning, AI research, and software engineering.
+Here I share my thoughts, learnings, and experiences in machine learning, AI research, and software engineering.
 
 ## Latest Posts
 
