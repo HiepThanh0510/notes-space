@@ -1,10 +1,13 @@
 ---
 title: About Me 
 ---
+# About me 
 
-# Hi, I'm Thanh Vo 👋
+Hi, I'm Thanh Vo, a **Machine Learning Engineer** specializing in Large Language Models (LLMs). Currently working at [Trusting Social](https://trustingsocial.com/), I focus on building production-ready AI systems that solve real-world problems.
 
-I'm a **Machine Learning Engineer** specializing in Large Language Models (LLMs). Currently working at [Trusting Social](https://trustingsocial.com/), I focus on building production-ready AI systems that solve real-world problems.
+My journey in science and technology began with a passion for physics at Luong Van Chanh High School for The Gifted in Phu Yen (now Dak Lak). One of my proudest achievements was earning **Second Prize at the Vietnam National Physics Olympiad in 2019**, along with other national and provincial awards (aside from my "former Young Pioneer" achievement). [Read more about my achievements](https://phuyen.baodaklak.vn/79/215684/bang-vang-thanh-tich-hoc-tap-cua-thanh.html)
+
+From physics to machine learning, my path has been driven by curiosity about how systems work - whether understanding the fundamental laws of nature or building intelligent AI systems. Today, I apply that same analytical mindset to develop cutting-edge machine learning solutions.
 
 ---
 
@@ -48,24 +51,10 @@ I'm a **Machine Learning Engineer** specializing in Large Language Models (LLMs)
 
 ---
 
-## 🛠️ Skills
-
-**Machine Learning & AI**  
-Large Language Models • RAG Systems • Natural Language Processing • Computer Vision • Deep Learning
-
-**Programming & Tools**  
-Python • PyTorch • TensorFlow • C++ • JavaScript • Docker • Git
-
-**Engineering**  
-MLOps • System Design • Embedded Systems • Control Engineering
-
----
-
 ## 📫 Connect
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/vohiepthanh/)
 - 💻 [GitHub](https://github.com/HiepThanh0510)
-- 📧 vohiepthanhly1619@gmail.com
 
 ---
 
