@@ -16,30 +16,30 @@ From physics to machine learning, my path has been driven by **curiosity** about
 
 ## Experience
 
-#### Machine Learning Engineer @ [Trusting Social](https://trustingsocial.com/)
+##### Machine Learning Engineer @ [Trusting Social](https://trustingsocial.com/)
 *Feb 2025 - Present*
 
-#### Machine Learning Engineer @ Delta Cognition
+##### Machine Learning Engineer @ Delta Cognition
 *Dec 2023 - Jan 2025 • 1 yr 2 mos*
 
-#### AI Researcher @ [VietAI](https://vietai.org/)
+##### AI Researcher @ [VietAI](https://vietai.org/)
 *Dec 2023 - Jan 2025 • 1 yr 2 mos*
 
-#### AI Researcher @ [AI VIET NAM](https://aivietnam.edu.vn/)
+##### AI Researcher @ [AI VIET NAM](https://aivietnam.edu.vn/)
 *Jun 2022 - May 2023 • 1 yr*
 
-#### Embedded Software Engineer @ [Viettel High Tech](https://viettelhightech.vn/en)
+##### Embedded Software Engineer @ [Viettel High Tech](https://viettelhightech.vn/en)
 *Jun 2022 - Aug 2022 • 3 mos*
 
 ---
 
 ## Education
 
-#### Ho Chi Minh City University of Technology (HCMUT)
+##### Ho Chi Minh City University of Technology (HCMUT)
 **Bachelor's degree, Control Engineering and Automation**  
 *Aug 2019 - Jul 2023*
 
-#### Luong Van Chanh High School for The Gifted
+##### Luong Van Chanh High School for The Gifted
 **Physics Specialization**  
 *Sep 2016 - May 2019*
 
